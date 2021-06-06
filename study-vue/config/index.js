@@ -5,7 +5,7 @@
 const path = require('path')
 
 module.exports = {
-  dev: {
+  dev: { //git测试
 
     // Paths
     assetsSubDirectory: 'static',
@@ -61,7 +61,7 @@ module.exports = {
      */
 
     productionSourceMap: true,
-    // https://webpack.js.org/configuration/devtool/#production
+    // https://webpack.js.org/configuration/devtool/#production dsds
     devtool: '#source-map',
 
     // Gzip off by default as many popular static hosts such as
