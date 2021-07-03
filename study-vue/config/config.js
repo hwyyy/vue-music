@@ -1,1 +1,5 @@
-var a = 1;
+var a = 6;
+
+function getParam(data) {
+  return data
+}
