@@ -1,0 +1,11 @@
+
+
+前端开发提交代码流程
+
+1.点击远程仓库Fork project按钮，点击自己头像进行fork
+
+
+2.某一小组成员基于root/master新建本次开发任务分支，如medicine0629，然后推到root/medicine0629，组内其他开发成员在本地基于root/master也新建medicine0629分支。成员开发的代码可pull或push到root/medicine0629分支。等开发完毕后，某一小组成员推到root/test分支，以便测试人员进行测试及验证问题。
+注：小组开发分支medicine0629不要拉取root/test分支
+3.验收通过即将上线时（打tag），某一小组成员在本地仓库同步root/medicine0629和root/master，将本地medicine0629分支合并到本地master上，再发起merge request合并到root/master，等待仓库管理员同意并将被告知的tag名称告诉测试人员即可。
+4.如成员之间开发互不影响，可参考http://confluence.rd.91160.com/pages/viewpage.action?pageId=919229
